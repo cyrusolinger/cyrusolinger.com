@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: salmon;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: olive;
+    padding: 0 10%;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    padding: 1rem;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 24px;
+    color: white;
+}
