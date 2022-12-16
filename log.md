@@ -94,3 +94,43 @@
 
 ### Notes
 - installed IMWheel via terminal, mainly copy and pasting but felt cool to solve the scroll wheel issue
+
+## 2022-12-15 Starting JavaSCript!
+
+### JavaScript
+- variable = storage container
+- basic math with operators
+- name the eight data types in JavaScript.
+- understand the difference between single, double, and backtick quotes.
+- embed a variable/expression in a string.
+- understand what a method is.
+- name the three logical operators.
+- understand what the comparison operators are.
+- understand what conditionals are.
+- understand what nesting is.
+- understand what truthy and falsy values are.
+
+### JS Dev Tools
+- change screen size of a website with developer tools
+- view and change the DOM
+- debug JavaScript
+- use breakpoints
+- view and edit HTML in the Elements tab
+- view the Resources Panel to check the scripts running on a website
+- add CSS Pseudostate to a Class
+- view CSS Properties in Alphabetical Order
+- view and edit the Box Model of any Element in Chrome DevTools
+- view a page in print mode
+- enable or Disable CSS Classes
+- simulate media queries in Device Mode
+
+### cyrusolinger.com
+- completed basic navbar
+ - took less than 10 minutes compared to 90 minutes on TOP landing-page
+- created "Projects" section
+ - practiced more flexbox
+ - tried to improve css readability
+ - improved efficiency of div usage
+- added "container" div around everything
+ - flex direction column
+
