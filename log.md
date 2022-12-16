@@ -109,6 +109,9 @@
 - understand what conditionals are.
 - understand what nesting is.
 - understand what truthy and falsy values are.
+- how to define and invoke different kinds of functions.
+- how to use the return value.
+- what function scope is.
 
 ### JS Dev Tools
 - change screen size of a website with developer tools

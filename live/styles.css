@@ -5,8 +5,8 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: salmon;
+    padding: 2rem 20%;
+    background-color: #070606;
 }
 
 .container {
@@ -18,8 +18,22 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: olive;
-    padding: 0 10%;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+nav h1 {
+    font-size: 1rem;
+    color: #F8F9F9;
+}
+
+nav img {
+    height: 3rem;
+    border-radius: 50%;
 }
 
 nav ul {
@@ -32,17 +46,45 @@ nav ul li {
 }
 
 nav ul li a {
-    padding: 1rem;
+    font-size: .8rem;
+    margin: 1rem;
+    padding: .25rem;
     text-decoration: none;
+    color: #F8F9F9;
 }
 
-h1 {
-    font-size: 24px;
+i {
     color: white;
 }
 
-.content {
-    background-color: lightgray;
+/* pasted in for underline hover */
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #F8F9F9;
+}
+
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* ends here */
+
+/* .content {
     display: flex;
     flex-direction: column;
     padding: 2rem 5rem;
@@ -61,11 +103,11 @@ h1 {
 
 .project img {
     border-radius: 10%;
-    border: solid white 3px;
+    border: solid #F8F9F9 3px;
     max-height: 10rem;
     max-width: 10rem;
 }
 
 .project p {
     text-align: center;
-}
+} */
