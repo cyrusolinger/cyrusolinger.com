@@ -9,6 +9,11 @@ body {
     background-color: salmon;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -34,4 +39,33 @@ nav ul li a {
 h1 {
     font-size: 24px;
     color: white;
+}
+
+.content {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 5rem;
+}
+
+.content h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.showcase {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.project img {
+    border-radius: 10%;
+    border: solid white 3px;
+    max-height: 10rem;
+    max-width: 10rem;
+}
+
+.project p {
+    text-align: center;
 }
