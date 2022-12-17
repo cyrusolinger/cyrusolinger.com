@@ -136,4 +136,32 @@
  - improved efficiency of div usage
 - added "container" div around everything
  - flex direction column
+ - commented this out later
+- gained some inspiration from other portfolio sites
 
+- really like https://www.rshah.org/
+
+## 2022-12-16
+
+### Problem-Solving
+- understanding the problem
+ - write it in plain English
+  - psuedocode
+ - map it out (diagram)
+ - what are the possible inputs and desired outputs?
+- break large problem down into small problems
+
+### Errors
+- Syntax Error: occurs when the code you are trying to run is not written correctly, in accordance with the grammatical rules of JavaScript
+- ReferenceError: whatever variable you are trying to reference does not exist (within the current scope)
+- TypeError: 
+ - an operand or argument passed to a function is incompatible with the type expected by that operator or function;
+ - or when attempting to modify a value that cannot be changed;
+ - or when attempting to use a value in an inappropriate way.
+
+ ### Rock Paper Scissors Project
+- struggled with passing in functions
+  - wasn't sure when to use parentheses outside of defining the function
+- compeleted MVP with minimal outside resources
+- breakpoints in debugger were helpful, want to improve on using it
+- tried to build the app all at once as opposed to breaking it down
