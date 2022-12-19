@@ -165,3 +165,8 @@
 - compeleted MVP with minimal outside resources
 - breakpoints in debugger were helpful, want to improve on using it
 - tried to build the app all at once as opposed to breaking it down
+
+## 2022-12-18
+
+### Notes
+- took the weekend off for the most part, practicing balance...
