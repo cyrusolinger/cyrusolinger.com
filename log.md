@@ -170,3 +170,25 @@
 
 ### Notes
 - took the weekend off for the most part, practicing balance...
+
+## 2022-12-19
+
+### JS Exercises
+- spent all day working on TOP JS exercises
+- was able to complete the first 9 without checking solutions
+- fibonacci sequence exercise could not solve one edge case
+- moving on to DOM lecture and will return to these exercises later on
+
+### DOM Manipulation
+- skimmed through basics of DOM manipulation
+ - selecting elements
+ - creating elements
+ - changing elements attributs
+  - changing styles
+  - adding/removing classes
+ - attaching/removing nodes
+ - looping nodes
+
+ ### Notes
+ - will work on Wes Bos JS30 project tomorrow for DOM practice
+ - should have more skills to practice on personal site
